@@ -12,8 +12,31 @@ custom arch install scripts
 >
 > the commands below are for my own reference
 
-## pre-partition
+## scripts
 
 ```sh
-curl -L https://raw.githubusercontent.com/lpnh/cais/main/pre-partition.sh | bash
+curl -LO https://raw.githubusercontent.com/lpnh/cais/main/00_usb.sh
 ```
+
+```sh
+curl -LO https://raw.githubusercontent.com/lpnh/cais/main/01_init.sh
+```
+
+```sh
+curl -LO https://raw.githubusercontent.com/lpnh/cais/main/02_base.sh
+```
+
+```sh
+curl -LO https://raw.githubusercontent.com/lpnh/cais/main/03_conf.sh
+```
+
+## iso download
+
+via **torrent** (recommended):
+
+[archlinux release](https://archlinux.org/releng/releases/)
+
+via **https mirrors**:
+
+[ufscar](https://mirror.ufscar.br/archlinux/iso/latest/)  
+[unicamp](https://mirrors.ic.unicamp.br/archlinux/iso/latest/)
